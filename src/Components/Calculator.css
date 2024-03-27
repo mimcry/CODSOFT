@@ -1,0 +1,38 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 200px;
+    background-color: bisque;
+    
+  }
+  
+  input[type='text'] {
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+   
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
